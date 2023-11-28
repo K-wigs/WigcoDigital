@@ -1,0 +1,394 @@
+@font-face {
+    font-family: Lato;
+    src: url(./Resources/Lato-Regular.ttf);
+}
+
+body {
+    
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.spacer {
+    display: none;
+}
+/* Header */
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 10rem;
+}
+#logo {
+    height: 5rem;
+    position: relative;
+    top: 2.5rem;
+
+}
+
+header a {
+    text-decoration: none;
+    text-color: black;
+    font-weight: 600;
+    font-family: Lato;
+    font-size: .75rem;
+    position: relative;
+    top: 3.6rem;
+}
+
+header a:visited {color: black;}
+
+header a:hover {color: black;}
+
+header a:active {color: black;}
+
+#headlineButton {
+    border: none;
+    background-color: white;
+    position: relative;
+    bottom: .8rem;
+    margin-right: 3.125rem;
+}
+
+#work {
+    margin-left: 3.125rem;
+}
+
+#contact {    
+    display: flex;
+    flex-direction: row;
+}
+
+/* Banner Video Section */
+
+#videoSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 3.125rem;
+    margin-right: 3.125rem;
+
+}
+
+video {
+    width: 100%;
+    height: 100%;
+}
+
+#videoContainer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 1.25rem;
+    overflow: hidden;
+}
+
+#videoSection h2 {
+    font-family: Lato;
+    font-size: 2.75rem;
+    font-weight: 700;
+    text-align: center;
+    width: 67%;
+    margin-top: 100px;
+}
+
+#rwtitleblock {
+    display: flex;
+    margin-top: 6.25rem;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#rwtitle {
+    font-family: Lato;
+    font-size: .75rem;
+    font-weight: 600;
+    letter-spacing: 1.4px;
+}
+
+#recentWork {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 6.25rem;
+}
+
+.rwdisplay {
+    
+}
+
+
+.rwdisplay img {
+    height: 20rem;
+    width: 20rem;
+    border-radius: 1.25rem;
+    border: none;
+}
+
+.rwSubText h3{
+    color: #000;
+    font-family: Lato;
+    font-size: .9rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: .3rem;
+    margin-top: .5rem;
+}
+
+.rwSubText p {
+    color: #74716C;
+    font-family: Lato;
+    font-size: .7rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: .1rem;
+}
+
+/* Service Section */
+
+#serviceSection {
+    background-color: #f7f7f7;
+    width: 100%;
+}
+
+#ssContainer {
+    
+}
+
+#ssUpper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 3.125rem;
+    margin-right: 3.125rem;
+}
+
+#ssUpperRight img {
+    height: 43rem;
+    width: 43rem;
+    margin-top: 6.25rem;
+    border-radius: 1.25rem;
+}
+
+#ssUpperLeft {
+    margin-right: 8.3125rem;
+    font-family: Lato;
+}
+
+#ssUpperLeft h3 {
+    font-size: .75rem;
+    text-align: left;
+}
+
+#ssUpperLeft p {
+    color: #74716C;
+    font-family: Lato;
+    font-size: .6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+    text-align: left;
+    }
+
+#selectClients {
+    font-size: .75rem;
+    font-family: Lato;
+    width: 100%;
+    text-align: center;
+    margin-top: 6.25rem;
+    margin-bottom: 4.3125rem;
+}
+
+#ssLower {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 3.125rem;
+    margin-right: 3.125rem;
+    margin-bottom: 7.6875rem;
+}
+
+.ssLowerImage {
+    height: 4rem;
+    width: auto;
+}
+
+/* Our Purpose */
+
+#ourPurpose {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6.25rem;
+    margin-left: 3.125rem;
+    margin-right: 3.125rem;
+}
+
+#ourPurposeTitle {
+    font-family: Lato;
+    font-size: .75rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+#ourPurpose h2 {
+    font-family: Lato;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+#text {
+    width: 70%;
+}
+
+#text p {
+    font-family: Lato;
+    color: #74716C;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin-bottom: 6.25rem;
+}
+
+#lagTitle {
+    font-family: Lato;
+    font-size: .75rem;
+    font-weight: 600;
+    text-align: left;
+    width: 100%;
+    margin-bottom: .8rem;
+    letter-spacing: .125rem;
+}
+
+#lag {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+.lagsection img {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 1.25rem;
+    margin-bottom: .3rem;
+}
+
+.lagSubtext {
+    font-family: Lato;
+    margin-top: 0;
+    margin-bottom: 6.25rem;
+}
+
+.lagSubtext h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.lagSubtext p {
+    font-size: .75rem;
+    color: #74716C;
+    font-weight: 700;
+    margin-top: .2rem;
+}
+
+footer {
+    background-color: #f7f7f7;
+    height: 23.375rem;
+}
+
+#footerContainer {
+    margin-left: 3.125rem;
+    margin-right: 3.125rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+
+#footerBanner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 40%;
+}
+
+#footerSub {
+    display: flex;
+    flex-direction: column;
+    font-family: Lato;
+    width: 20%
+}
+
+#footerSub h2 {
+    font-weight: 900;
+    margin-bottom: .5rem;
+}
+
+#footerSub input {
+    width: 100%;
+    border-radius: 0.3125rem;
+    border: none;
+    height: 2.25rem;
+}
+
+#footerSub input::placeholder {
+    font-family: Lato;
+    color: #74716C;
+}
+
+#footerSub button {
+    width: 60%;
+    height: 2.25rem;
+    background-color: black;
+    color: white;
+    font-family: Lato;
+    letter-spacing: .1rem;
+    border: none;
+    border-radius: 0.3125rem;
+} 
+
+#footerBanner {
+    margin-right: 18rem;
+}
+
+.bannerItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.bannerItem h3 {
+    font-family: Lato;
+    font-size: .75rem;
+    letter-spacing: .125rem;
+}
+
+.bannerItem a {
+    text-decoration: none;
+    color: #74716C;
+    font-weight: 600;
+    font-family: Lato;
+    font-size: .75rem;
+    margin-bottom: .5rem;
+}
+
+.bannerItem a:visited {color: #74716C;}
+
+.bannerItem a:hover {color: #74716C;}
+
+.bannerItem a:active {color: #74716C;}

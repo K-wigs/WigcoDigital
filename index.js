@@ -54,7 +54,7 @@ const autoSlide = async  () => {
 
     do {
         for (let i=0; i <= SlideArr.length; i++) {
-            await slideTime(2000);
+            await slideTime(6000);
             slide.style.backgroundImage = SlideArr[i];
                 
                 if (i === 0 ) {

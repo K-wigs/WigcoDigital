@@ -22,7 +22,7 @@ header {
     width: 100%;
     height: 10rem;
 }
-#logo {
+header svg {
     height: 5rem;
     position: relative;
     top: 2.5rem;
@@ -71,6 +71,29 @@ header a:active {color: black;}
     margin-left: 3.125rem;
     margin-right: 3.125rem;
 
+}
+
+#videoContainer {
+    position: relative;
+}
+
+#videoContainer svg{
+   height: 2.5rem;
+   position: absolute;
+   bottom: 2rem;
+   left: 2rem;
+
+} 
+
+#videoContainer button{
+    height: 2.5rem;
+    width: 2.5rem;
+    position: absolute;
+    bottom: 3rem;
+    left: 3rem;
+    border-radius: 1.25rem;
+    background-image: url('./Resources/pause.svg');
+    border: none;
 }
 
 video {
@@ -159,28 +182,82 @@ video {
     width: 100%;
 }
 
-#ssContainer {
-    
-}
-
 #ssUpper {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
     margin-left: 3.125rem;
     margin-right: 3.125rem;
+    
 }
 
-#ssUpperRight img {
-    height: 43rem;
-    width: 43rem;
-    margin-top: 6.25rem;
+
+#slidePauseBtn {
+    height: 2.5rem;
+    width: 2.5rem;
     border-radius: 1.25rem;
+    background-image: url('./Resources/pause.svg');
+    border: none;
+    
+}
+
+#ssUpperRight {
+    width: 50%;
+    height: 30rem;
+    margin-top: 6rem;
+    border-radius: 1.25rem;
+    background-image: url('./Resources/ss1.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+    transition: ease-in-out, 2s;
+}
+
+@keyframes slidebabyslide {
+    from{
+        background-image: url('./Resources/ss1.jpg');
+    } to {
+        background-image: url('./Resources/ss2.jpg');
+    }
+}
+
+#ssUpperRight button {
+    margin-bottom: 2rem;
+}
+
+#slidePauseBtn {
+    margin-left: 2.5rem;
+}
+
+.slideIndicatorBtns {
+    width: 15%;
+    height: 4px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, .4);
+}
+
+
+#slideIndicators {
+    margin-right: 2.5rem;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+#slideIndicator1 {
+    background-color: rgba(255, 255, 255, 1);
 }
 
 #ssUpperLeft {
     margin-right: 8.3125rem;
     font-family: Lato;
+    width: 40%;
 }
 
 #ssUpperLeft h3 {
@@ -196,6 +273,7 @@ video {
     font-weight: 400;
     line-height: 1.5rem;
     text-align: left;
+    font-size: 1rem;
     }
 
 #selectClients {
